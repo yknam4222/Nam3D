@@ -27,15 +27,27 @@ public class WayPointEditor : EditorWindow
             {
                 if (Parent != null)
                 {
-                    GameObject NodeObject = new GameObject("Node");
+                    GameObject NodeObject = new GameObject();
+                    NodeObject.transform.name = "Node_" + Parent.transform.childCount;
                     Node node = NodeObject.AddComponent<Node>();
 
                     // Node¿« º≥¡§
+
+                    SphereCollider coll = node.GetComponent<SphereCollider>();
+                    coll.radius = 0.05f;
 
                     NodeObject.transform.SetParent(Parent.transform);
 
                     NodeObject.transform.transform.position = new Vector3(
                         Random.Range(-10.0f, 10.0f), 0.0f, Random.Range(-10.0f, 10.0f));
+
+                    if(1 < Parent.transform.childCount)
+                    {
+                        Parent.transform.GetChild(Parent.transform.childCount - 2).GetComponent<Node>().Next = node;
+
+                        node.Next = Parent.transform.GetChild(0).GetComponent<Node>();
+
+                    }
                 }
             }
             GUILayout.FlexibleSpace();

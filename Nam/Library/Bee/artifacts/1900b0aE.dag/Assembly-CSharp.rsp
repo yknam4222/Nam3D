@@ -347,6 +347,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/Math/myGizmo.cs"
 "Assets/Scripts/Node.cs"
 "Assets/Scripts/WayPoint/Editors/WayPoint.cs"
 "Assets/Scripts/WayPoint/Editors/WayPointEditor.cs"
