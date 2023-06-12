@@ -103,15 +103,14 @@ public class EnemyController : MonoBehaviour
     private void FixedUpdate()
     {
         RaycastHit hit;
-
-        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin(-Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(-Angle * Mathf.Deg2Rad)) * 2.5f, Color.white);
+        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin((-Angle + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f, Mathf.Cos((-Angle + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.white);
 
         if (Physics.Raycast(transform.position, LeftCheck, out hit, 5.0f))
         {
 
         }
 
-        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin(Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(Angle * Mathf.Deg2Rad)) * 2.5f, Color.green);
+        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f, Mathf.Cos((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.green);
 
         if (Physics.Raycast(transform.position, RightCheck, out hit, 5.0f))
         {
@@ -121,8 +120,8 @@ public class EnemyController : MonoBehaviour
         for (float f = -Angle +5.0f; f < Angle; f += 5.0f)
         {
             Debug.DrawRay(transform.position,
-                new Vector3(Mathf.Sin(f * Mathf.Deg2Rad), 0.0f,
-                Mathf.Cos(f * Mathf.Deg2Rad)) * 2.5f, Color.red);
+                new Vector3(Mathf.Sin((f + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f,
+                Mathf.Cos((f + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.red);
         }
     }
 
