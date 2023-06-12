@@ -352,6 +352,7 @@
 "Assets/Scripts/Math/LineCollision.cs"
 "Assets/Scripts/Math/myGizmo.cs"
 "Assets/Scripts/Node.cs"
+"Assets/Scripts/Rotation.cs"
 "Assets/Scripts/WayPoint/Editors/WayPoint.cs"
 "Assets/Scripts/WayPoint/Editors/WayPointEditor.cs"
 -langversion:9.0
