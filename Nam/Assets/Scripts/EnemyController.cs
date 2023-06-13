@@ -6,7 +6,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
 {
-    private Camera camera;
 
     public Node Target;
 
@@ -20,14 +19,8 @@ public class EnemyController : MonoBehaviour
 
     private bool move;
 
-    private bool View;
-
-    private Vector3 offset;
-
     private void Awake()
     {
-        camera = Camera.main;
-
         SphereCollider coll = GetComponent<SphereCollider>();
         coll.radius = 0.05f;
         coll.isTrigger = true;
@@ -49,80 +42,68 @@ public class EnemyController : MonoBehaviour
 
         Angle = 45.0f;
 
-        move = true;
-        View = false;
+        move = false;
 
-        offset = new Vector3(0.0f, 10.0f, 10.0f);
     }
 
     private void Update()
     {
-        View = Input.GetKey(KeyCode.Tab) ? true : false;
-
-        if(View)
-        {
-            offset = new Vector3(0.0f, 5.0f, -3.0f);
-            camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 100.0f, Time.deltaTime);
-        }
-        else
-        {
-            offset = new Vector3(0.0f, 10.0f, -10.0f);
-            camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 60.0f, Time.deltaTime);
-        }
-
-        camera.transform.position = Vector3.Lerp(
-            camera.transform.position,
-            transform.position + offset,
-            0.016f);
-
-        camera.transform.LookAt(transform.position);
-
+        
         if (Target)
         {
-            if (move)
-            {
-                function();
-                Vector3 Direction = (Target.transform.position - transform.position).normalized;
-                transform.position += Direction * Speed * Time.deltaTime;
+            Vector3 Direction = (Target.transform.position - transform.position).normalized;
 
-                transform.rotation = Quaternion.Lerp(
+            transform.rotation = Quaternion.Lerp(
                     transform.rotation,
                     Quaternion.LookRotation(Direction),
                     Time.deltaTime);
+            if (move)
+            {
+                transform.position += Direction * Speed * Time.deltaTime;
             }
             else
             {
-                transform.rotation = Quaternion.Lerp(
-                    transform.rotation,
-                    Quaternion.LookRotation(Vector3.back),
-                    Time.deltaTime);
+                Vector3 targetDir = Target.transform.position - transform.position;
+                float angle = Vector3.Angle(targetDir, transform.forward);
+
+                if (Vector3.Angle(targetDir, transform.forward) < 0.5f)
+                    move = true;
             }
         }
     }
 
     private void FixedUpdate()
     {
+        float startAngle = transform.eulerAngles.y - Angle;
+
         RaycastHit hit;
-        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin((-Angle + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f, Mathf.Cos((-Angle + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.white);
+
+        Debug.DrawRay(transform.position,
+            new Vector3(Mathf.Sin(startAngle * Mathf.Deg2Rad),
+            0.0f, Mathf.Cos(startAngle * Mathf.Deg2Rad)) * 2.5f,
+            Color.white);
 
         if (Physics.Raycast(transform.position, LeftCheck, out hit, 5.0f))
         {
 
         }
 
-        Debug.DrawRay(transform.position, new Vector3(Mathf.Sin((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f, Mathf.Cos((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.green);
+        Debug.DrawRay(transform.position,
+            new Vector3(Mathf.Sin((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad),
+            0.0f, Mathf.Cos((Angle + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.green);
 
         if (Physics.Raycast(transform.position, RightCheck, out hit, 5.0f))
         {
 
         }
 
-        for (float f = -Angle +5.0f; f < Angle; f += 5.0f)
+        for (float f = -Angle + 5.0f; f < Angle; f += 5.0f)
         {
             Debug.DrawRay(transform.position,
                 new Vector3(Mathf.Sin((f + transform.eulerAngles.y) * Mathf.Deg2Rad), 0.0f,
                 Mathf.Cos((f + transform.eulerAngles.y) * Mathf.Deg2Rad)) * 2.5f, Color.red);
         }
+
     }
 
 
@@ -152,6 +133,8 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        move = false;
+
         if (Target.transform.name == other.transform.name)
             Target = Target.Next;
     }
