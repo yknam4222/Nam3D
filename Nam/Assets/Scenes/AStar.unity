@@ -272,6 +272,7 @@ MonoBehaviour:
   vertices: []
   material: {fileID: 2100000, guid: 3620fa2d60b53d84f9cb18a42ff87504, type: 2}
   Angle: 0
+  scale: 0
 --- !u!135 &563695066
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -413,7 +414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &707802435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -510,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1223882735
 SphereCollider:
   m_ObjectHideFlags: 0

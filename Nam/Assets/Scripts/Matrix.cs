@@ -37,7 +37,7 @@ public class Matrix : MonoBehaviour
 
         m.m11 = m.m22 = Mathf.Cos(_x);
         m.m21 = Mathf.Sin(_x);
-        m.m31 = -m.m21;
+        m.m12 = -m.m21;
 
         return m;
     }
@@ -83,9 +83,15 @@ public class Matrix : MonoBehaviour
         // 항등행렬
         Matrix4x4 m = Matrix4x4.identity;
 
-        m.m11 = scale.x;
-        m.m22 = scale.y;
-        m.m33 = scale.z;
+        m.m00 = scale.x;
+        m.m11 = scale.y;
+        m.m22 = scale.z;
+
+        //          X       Y        Z       W
+        // X      sx      0          0       0
+        // Y       0      sy         0       0   
+        // Z       0       0        sz       0
+        // W      0       0         0       1
 
         return m;
     }

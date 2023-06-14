@@ -26,6 +26,9 @@ public class EnemyController : MonoBehaviour
 
     private bool move;
 
+    [Range(1.0f, 2.0f)]
+    public float scale;
+
     private void Awake()
     {
         SphereCollider coll = GetComponent<SphereCollider>();
@@ -50,6 +53,8 @@ public class EnemyController : MonoBehaviour
         Angle = 45.0f;
 
         move = false;
+
+        scale = 1.0f;
     }
 
     private void Update()
@@ -64,41 +69,48 @@ public class EnemyController : MonoBehaviour
 
                 Vector3[] verticesPoint = meshFilter.mesh.vertices;
 
+                List<Vector3> temp = new List<Vector3>();
+
                 for(int i = 0;  i < verticesPoint.Length; ++i)
                 {
-                    if (!vertices.Contains(verticesPoint[i]) 
+                    if (!temp.Contains(verticesPoint[i]) 
                         && verticesPoint[i].y < transform.position.y + 0.05f
-                        //&& transform.position.y < verticesPoint[i].y + 0.05f
+                        && transform.position.y < verticesPoint[i].y + 0.05f
                         )
                     {
-                        vertices.Add(verticesPoint[i]);
+                        temp.Add(verticesPoint[i]);
                     }
                 }
 
-            }
+                for (int i = 0; i < temp.Count; ++i)
+                {
+                   temp[i] = new Vector3(
+                            temp[i].x,
+                            0.1f,
+                            temp[i].z
+                            );
+                }
 
-            for(int i = 0; i < vertices.Count; ++i)
-            {
-                GameObject obj = new GameObject(i.ToString());
-                obj.transform.position = new Vector3(
-                            hit.transform.position.x + vertices[i].x * hit.transform.localScale.x,
-                            transform.position.y,
-                            hit.transform.position.z + vertices[i].z * hit.transform.localScale.z);
+                vertices.Clear();
+                for (int i = 0; i < temp.Count; ++i)
+                {
+                    GameObject obj = new GameObject(i.ToString());
 
-                obj.AddComponent<myGizmo>();
+                    Matrix4x4[] matrix = new Matrix4x4[4];
 
-                Matrix4x4[] matrix = new Matrix4x4[4];
+                    matrix[T] = Matrix.Translate(hit.transform.position);
+                    matrix[R] = Matrix.Rotate(hit.transform.eulerAngles);
+                    matrix[S] = Matrix.Scale(hit.transform.lossyScale * scale);
 
-                matrix[T] = Matrix.Translate(hit.transform.position);
-                matrix[R] = Matrix.Rotate(hit.transform.eulerAngles);
-                matrix[S] = Matrix.Scale(hit.transform.localScale); 
+                    matrix[M] = matrix[T] * matrix[R] * matrix[S];
 
-                matrix[M] = matrix[T] * matrix[R] * matrix[S];
+                    Vector3 v = matrix[M].MultiplyPoint(temp[i]);
 
-                Outpot(matrix[M]);
+                    vertices.Add(v);
 
-                //Vector3 v = matrix[M].MultiplyPoint(vertices[i]);
-                //Debug.Log(v.x + " , " + v.y + " , " + v.z);
+                    obj.transform.position = v;
+                    obj.AddComponent<myGizmo>();
+                }
             }
         }
 
