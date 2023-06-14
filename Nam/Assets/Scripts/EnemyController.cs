@@ -6,6 +6,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
 {
+    const int M = 0; //Matrix
+    const int T = 1; // Transform
+    const int R = 2; // Rotation
+    const int S = 3; // Scale
+
     public Node Target = null;
     public List<Vector3> vertices = new List<Vector3>();
 
@@ -63,7 +68,8 @@ public class EnemyController : MonoBehaviour
                 {
                     if (!vertices.Contains(verticesPoint[i]) 
                         && verticesPoint[i].y < transform.position.y + 0.05f
-                        && transform.position.y < verticesPoint[i].y + 0.05f)
+                        //&& transform.position.y < verticesPoint[i].y + 0.05f
+                        )
                     {
                         vertices.Add(verticesPoint[i]);
                     }
@@ -80,6 +86,19 @@ public class EnemyController : MonoBehaviour
                             hit.transform.position.z + vertices[i].z * hit.transform.localScale.z);
 
                 obj.AddComponent<myGizmo>();
+
+                Matrix4x4[] matrix = new Matrix4x4[4];
+
+                matrix[T] = Matrix.Translate(hit.transform.position);
+                matrix[R] = Matrix.Rotate(hit.transform.eulerAngles);
+                matrix[S] = Matrix.Scale(hit.transform.localScale); 
+
+                matrix[M] = matrix[T] * matrix[R] * matrix[S];
+
+                Outpot(matrix[M]);
+
+                //Vector3 v = matrix[M].MultiplyPoint(vertices[i]);
+                //Debug.Log(v.x + " , " + v.y + " , " + v.z);
             }
         }
 
@@ -140,30 +159,6 @@ public class EnemyController : MonoBehaviour
 
     }
 
-    //void function()
-    //{
-    //    if (move)
-    //        return;
-
-    //    move = true;
-    //    StartCoroutine(SetMove());
-    //}
-
-    //IEnumerator SetMove()
-    //{
-    //    float time = 0.0f;
-
-
-    //    while (time < 1.0f)
-    //    {
-    //        time += Time.deltaTime;
-
-    //        yield return null;
-    //    }
-
-    //    move = false;
-    //}
-
     private void LateUpdate()
     {
     }
@@ -174,5 +169,14 @@ public class EnemyController : MonoBehaviour
 
         //if (Target.transform.name == other.transform.name)
         //    Target = Target.Next;
+    }
+
+    void Outpot(Matrix4x4 _m)
+    {
+        Debug.Log("==========================================");
+        Debug.Log(_m.m00 + " , " + _m.m01 + " , " + _m.m02 + " , " + _m.m03);
+        Debug.Log(_m.m10 + " , " + _m.m11 + " , " + _m.m12 + " , " + _m.m13);
+        Debug.Log(_m.m20 + " , " + _m.m21 + " , " + _m.m22 + " , " + _m.m23);
+        Debug.Log(_m.m30 + " , " + _m.m31 + " , " + _m.m32 + " , " + _m.m33);
     }
 }
