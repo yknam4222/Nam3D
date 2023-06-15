@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class myGizmo : MonoBehaviour
 {
+    public Color color;
+
+    private void Awake()
+    {
+        color = Color.green;
+    }
+
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
+        Gizmos.color = color;
 
         Gizmos.DrawSphere(transform.position, 0.2f);
     }

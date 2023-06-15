@@ -12,7 +12,10 @@ public class EnemyController : MonoBehaviour
     const int S = 3; // Scale
 
     public Node Target = null;
-    public List<Vector3> vertices = new List<Vector3>();
+    public List<GameObject> vertices = new List<GameObject>();
+    public List<GameObject> bestList = new List<GameObject>();
+
+    public List<Node> OpenList = new List<Node>();
 
     private float Speed;
 
@@ -29,6 +32,8 @@ public class EnemyController : MonoBehaviour
     [Range(1.0f, 2.0f)]
     public float scale;
 
+    private GameObject parent;
+
     private void Awake()
     {
         SphereCollider coll = GetComponent<SphereCollider>();
@@ -42,6 +47,8 @@ public class EnemyController : MonoBehaviour
     }
     private void Start()
     {
+        parent = new GameObject("Nodes");
+
         Speed = 5.0f;
 
         float x = 2.5f;
@@ -91,6 +98,11 @@ public class EnemyController : MonoBehaviour
                             );
                 }
 
+                GameObject startpoint = null; ;
+                float dis = 0.0f;
+                float bestDistance = 100000.0f;
+
+                OpenList.Clear();
                 vertices.Clear();
                 for (int i = 0; i < temp.Count; ++i)
                 {
@@ -105,11 +117,83 @@ public class EnemyController : MonoBehaviour
                     matrix[M] = matrix[T] * matrix[R] * matrix[S];
 
                     Vector3 v = matrix[M].MultiplyPoint(temp[i]);
-
-                    vertices.Add(v);
+                    dis = Vector3.Distance(transform.position, v);
 
                     obj.transform.position = v;
-                    obj.AddComponent<myGizmo>();
+                    obj.AddComponent<Node>();
+
+                    //------
+                    obj.transform.tag = "Node";
+                    //------
+
+                    obj.transform.SetParent(parent.transform);
+                    myGizmo gizmo =  obj.AddComponent<myGizmo>();
+
+                    if (dis < bestDistance)
+                    {
+                        bestDistance = dis;
+                        startpoint = obj;
+
+                        if(i == 0)
+                            vertices.Add(obj);
+                    }
+                    else
+                        vertices.Add(obj); 
+                }
+
+                if (startpoint)
+                {
+                    startpoint.GetComponent<myGizmo>().color = Color.red;
+                    OpenList.Add(startpoint.GetComponent<Node>());
+                }
+
+                //List<GameObject> CloseList = new List<GameObject>();
+
+                Node Mainnode = OpenList[0].GetComponent<Node>();
+                Mainnode.Cost = 0.0f;
+
+                while (vertices.Count != 0)
+                {
+                    float OldDistance = 1000000.0f;
+                    int index = 0;
+
+                    for(int i = 0; i < vertices.Count; ++i)
+                    {
+                        float Distance = Vector3.Distance(OpenList[0].transform.position, 
+                            vertices[i].transform.position);
+
+                        if(Distance < OldDistance)
+                        {
+                            OldDistance = Distance;
+                            Node Nextnode = vertices[i].GetComponent<Node>();
+                            Nextnode.Cost = Mainnode.Cost + Distance;
+                            index = i;
+                        }
+                    }
+
+                    if(!OpenList.Contains(vertices[index].GetComponent<Node>()))
+                    {
+                        RaycastHit Hit;
+
+                        if (Physics.Raycast(transform.position, OpenList[0].transform.position, out hit, OldDistance))
+                        {
+                            Debug.DrawRay(transform.position, OpenList[0].transform.position, Color.green, 5.0f);
+                            if (hit.transform.tag != "Node")
+                            {
+                                Debug.Log("aaaaa");
+                            }
+                            else
+                            {
+
+                                Debug.Log("ssssss");
+                            }
+                        }
+
+                        OpenList.Add(vertices[index].GetComponent<Node>());
+                        vertices[index].GetComponent<Node>();
+                            
+                        vertices.Remove(vertices[index]);
+                    }
                 }
             }
         }
