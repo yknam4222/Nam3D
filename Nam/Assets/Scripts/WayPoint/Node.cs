@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SphereCollider))]
-public class Node : MonoBehaviour
+//[RequireComponent(typeof(SphereCollider))]
+public class Node //: MonoBehaviour
 {
-
-    [HideInInspector] public Node Next;
+    public Vector3 Position;
+    public Node Next;
     public float Cost;
 
-    private void Start()
+    public Node(Node _node, float _cost)
     {
-        SphereCollider coll = GetComponent<SphereCollider>();
-        coll.radius = 0.2f;
-        coll.isTrigger = true;
+        Next = _node;
+        Cost = _cost;
     }
 
 }
