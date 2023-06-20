@@ -1,4 +1,94 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: preprocess
+ insize=78458 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (81): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (426): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (740): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1030): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1344): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1658): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=7754
+
+Cmd: preprocess
+ insize=92453 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (98): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (502): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (875): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1213): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1586): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1959): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=8898
+
+Cmd: preprocess
+ insize=99053 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (100): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (511): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (922): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1260): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1671): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (2082): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9060
+
+Cmd: preprocess
+ insize=94182 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (101): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (512): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (892): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1237): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1617): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1997): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9102
+
+Cmd: preprocess
+ insize=94105 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (100): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (511): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (891): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1236): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1616): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1996): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9025
+
+Cmd: preprocess
+ insize=94182 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (101): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (512): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (892): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1237): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1617): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1997): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9102
+
+Cmd: preprocess
+ insize=94105 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (100): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (511): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (891): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1236): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1616): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1996): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9025
+
+Cmd: preprocess
+ insize=99053 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (100): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (511): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (922): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1260): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1671): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (2082): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=9060
+
+Cmd: preprocess
+ insize=78458 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (81): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (426): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (740): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1030): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1344): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1658): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=7754
+
+Cmd: preprocess
+ insize=92453 file=/ surfaceOnly=0 cachingPP=1 buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL  error: 1 plat 25 at (98): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (502): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (875): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1213): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1586): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  error: 1 plat 25 at (1959): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+ ok=1 outsize=8898
+
 Cmd: shutdown
