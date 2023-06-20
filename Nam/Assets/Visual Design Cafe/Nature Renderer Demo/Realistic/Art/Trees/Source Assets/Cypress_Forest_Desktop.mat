@@ -9,28 +9,23 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Cypress_Forest_Desktop
   m_Shader: {fileID: 4800000, guid: c06c91c9416ad0f4e8a67d6103e77fdc, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _ALPHATEST
-  - _BAKEDMESHDATA_OFF
   - _BAKED_MESH_DATA
   - _COLOR_HSL
-  - _COLOR_TINT
-  - _DISABLE_DECALS
-  - _INTERACTION_OFF
   - _LIGHTING_QUALITY_HIGH
   - _NORMALMAP
-  - _OVERLAY
-  - _OVERLAY_OFF
-  - _SPECULARHIGHLIGHTS_OFF
   - _TRANSLUCENCY
-  - _TRANSLUCENCY_OFF
   - _WIND
-  - _WIND_OFF
+  m_InvalidKeywords:
+  - _DISABLE_DECALS
+  - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2449
+  m_CustomRenderQueue: 2450
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -39,7 +34,6 @@ Material:
   - TransparentBackface
   - RayTracingPrepass
   - DistortionVectors
-  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:

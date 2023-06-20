@@ -9,20 +9,17 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Conifer_Bark
   m_Shader: {fileID: 4800000, guid: 5354841ef6d24a94ab5a4d1b80a940fb, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _BAKEDMESHDATA_OFF
+  m_ValidKeywords:
   - _BAKED_MESH_DATA
   - _COLOR_TINT
-  - _DISABLE_DECALS
-  - _INTERACTION_OFF
   - _LIGHTING_QUALITY_HIGH
   - _NORMALMAP
-  - _OVERLAY
-  - _OVERLAY_OFF
-  - _SPECULARHIGHLIGHTS_OFF
   - _WIND
-  - _WIND_OFF
+  m_InvalidKeywords:
+  - _DISABLE_DECALS
+  - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -36,7 +33,6 @@ Material:
   - RayTracingPrepass
   - ForwardEmissiveForDeferred
   - DistortionVectors
-  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
