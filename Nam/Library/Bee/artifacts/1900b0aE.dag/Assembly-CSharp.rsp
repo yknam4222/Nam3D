@@ -116,6 +116,11 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Memory.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Instancing.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Instancing.Editor.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Nature.dll"
+-r:"Assets/Visual Design Cafe/Nature Renderer/Plugins/VisualDesignCafe.Rendering.Nature.Editor.dll"
 -r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.Community.dll"
 -r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.Events.dll"
 -r:"Assets/Visual Design Cafe/Package Manager/VisualDesignCafe.Editor.PackageManager.dll"
@@ -362,6 +367,11 @@
 "Assets/Scripts/WayPoint/Editors/WayPoint.cs"
 "Assets/Scripts/WayPoint/Editors/WayPointEditor.cs"
 "Assets/Scripts/WayPoint/Node.cs"
+"Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/CompileShaders.cs"
+"Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/OpenWebsiteButton.cs"
+"Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/RenderPipelineLighting.cs"
+"Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/UseReferenceCamera.cs"
+"Assets/Visual Design Cafe/Nature Renderer/Runtime/NatureRenderer.SRP.cs"
 -langversion:9.0
 
 /deterministic
