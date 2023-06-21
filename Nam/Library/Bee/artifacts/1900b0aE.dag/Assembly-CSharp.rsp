@@ -400,6 +400,8 @@
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
+"Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/Math/CenterController.cs"
