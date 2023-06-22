@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/Nam3D/Nam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51076
+51441
 Successfully changed project path to: C:/Users/SGA/Desktop/Nam3D/Nam
 C:/Users/SGA/Desktop/Nam3D/Nam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/Nam3D/Nam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20320] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1253283638 [EditorId] 1253283638 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14360] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1839680178 [EditorId] 1839680178 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20320] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1253283638 [EditorId] 1253283638 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14360] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1839680178 [EditorId] 1839680178 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 53.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,80 +67,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006058 seconds.
+Registered in 0.004139 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 137 ms
-Refreshing native plugins compatible for Editor in 53.70 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 141 ms
+Refreshing native plugins compatible for Editor in 60.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.581 seconds
+- Completed reload, in  0.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (185ms)
+				InitializePlatformSupportModulesInManaged (189ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006134 seconds.
+Registered in 0.006234 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Nam3D\Nam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Nam3D\Nam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 55.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (966ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (322ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (159ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (162ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -148,12 +148,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (2.2 MB). Loaded Objects now: 3737.
-Memory consumption went from 222.9 MB to 220.7 MB.
-Total: 2.545700 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.882000 ms  DeleteObjects: 0.396500 ms)
+Memory consumption went from 223.0 MB to 220.8 MB.
+Total: 3.115500 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.369000 ms  DeleteObjects: 0.456700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,10 +167,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7800.995581 seconds.
-  path: Assets/SwampBridge4k/Materials/BottomRailsSurface_Color.mat
-  artifactKey: Guid(d7e9978161530344c84f0e93dad320a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/BottomRailsSurface_Color.mat using Guid(d7e9978161530344c84f0e93dad320a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+  Time since last request: 9249.477596 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1 b.prefab
+  artifactKey: Guid(4d821b61a213fc840828e27fca18ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1 b.prefab using Guid(4d821b61a213fc840828e27fca18ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
 You must inherit from Editor. See the Editor class script documentation.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -182,98 +182,58 @@ UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
- -> (artifact id: '402969a262139db07857c9f1292e3c01') in 0.269853 seconds 
+ -> (artifact id: '305fede486908b1b97f9b398dedb6b73') in 0.097883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SwampBridge4k/Materials/SupportPosts-LeftSurface_Color.mat
-  artifactKey: Guid(dbf45a9df4a4a4f48a42ca6f15d1fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/SupportPosts-LeftSurface_Color.mat using Guid(dbf45a9df4a4a4f48a42ca6f15d1fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282e994cb26ef9e5fc3e22efba233bf7') in 0.019522 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 1.prefab
+  artifactKey: Guid(310f765a5920d1142afbe256c3e1f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 1.prefab using Guid(310f765a5920d1142afbe256c3e1f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac46410d0ea33462a7f671b29861fe4') in 0.016617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbx
-  artifactKey: Guid(ed899fe25319dc24480dad214abd0444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbx using Guid(ed899fe25319dc24480dad214abd0444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc9d7a04743d4f1961e457b0888e319') in 0.146415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SwampBridge4k/Materials/TopRailsSurface_Color.mat
-  artifactKey: Guid(d4cae92987faeb14f806ac4bad1b4a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/TopRailsSurface_Color.mat using Guid(d4cae92987faeb14f806ac4bad1b4a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2442ab7158713f1fd6581cbf758d0ab') in 0.014985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SwampBridge4k/Materials/Ramp-LowerSurface_Color.mat
-  artifactKey: Guid(b74f71d46a465034f952f1cf91a5ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/Ramp-LowerSurface_Color.mat using Guid(b74f71d46a465034f952f1cf91a5ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e97f729bc00212e68c4549ad04447d') in 0.015005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SwampBridge4k/Materials/DeckBoards-Set3Surface_Color.mat
-  artifactKey: Guid(f2d028b43f81816428954d12370bfdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/DeckBoards-Set3Surface_Color.mat using Guid(f2d028b43f81816428954d12370bfdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de79836951bda53b87c4389b514806c') in 0.016782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SwampBridge4k/Materials/Ramp-UpperSurface_Color.mat
-  artifactKey: Guid(a42a46c6e477db741a34d3ba2265c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/Ramp-UpperSurface_Color.mat using Guid(a42a46c6e477db741a34d3ba2265c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6192ee5b7fc9916c777967c922e32243') in 0.015616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SwampBridge4k/Materials/SupportPosts-RightSurface_Color.mat
-  artifactKey: Guid(76ba4e0d05ffe914396f0cac7d316b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/SupportPosts-RightSurface_Color.mat using Guid(76ba4e0d05ffe914396f0cac7d316b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3235ba6120a2d96b7793c2b8dca66d76') in 0.015652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SwampBridge4k/Materials/DeckBoards-Set2Surface_Color.mat
-  artifactKey: Guid(b805c1cc529855a469e954ee5e0a0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/DeckBoards-Set2Surface_Color.mat using Guid(b805c1cc529855a469e954ee5e0a0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860608ad0a179a04f6136669fc7224f5') in 0.014803 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1.prefab
+  artifactKey: Guid(6d13e3e1ec610134c8ec67c29c8f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1.prefab using Guid(6d13e3e1ec610134c8ec67c29c8f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a9db4c5328fe0bf70b1136727c51e3') in 0.025813 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/SwampBridge4k/Materials/DeckBoards-Set1Surface_Color.mat
-  artifactKey: Guid(c9c1229ea5e8b2c48b5f73d8bc599430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/Materials/DeckBoards-Set1Surface_Color.mat using Guid(c9c1229ea5e8b2c48b5f73d8bc599430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fee8f3088c8f02376a18dbc0089442') in 0.021838 seconds 
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 2.prefab
+  artifactKey: Guid(7552661bc45660240b68ea1e813bbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 2.prefab using Guid(7552661bc45660240b68ea1e813bbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960686e06109a0443a094a21c4711214') in 0.016421 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.984671 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/BottomRailsSurface_Color.jpg
-  artifactKey: Guid(0b63159ea2df00348a89e32a65532809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/BottomRailsSurface_Color.jpg using Guid(0b63159ea2df00348a89e32a65532809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df7455be9c1e4263ed1c47a3bb0b32d') in 0.066676 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge step 1.prefab
+  artifactKey: Guid(48aab90d7099e38428e69512f29b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge step 1.prefab using Guid(48aab90d7099e38428e69512f29b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269614e35b61d1a43d5a2faed5eee84e') in 0.012092 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/DeckBoards-Set2Surface_Color.jpg
-  artifactKey: Guid(2ee25bd479eaf9a4aa6759f98e89ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/DeckBoards-Set2Surface_Color.jpg using Guid(2ee25bd479eaf9a4aa6759f98e89ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dbba1d55472f6abf0f94c78f705702') in 0.035590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/DeckBoards-Set1Surface_Color.jpg
-  artifactKey: Guid(1027d15fe18a1eb479f0736bc590baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/DeckBoards-Set1Surface_Color.jpg using Guid(1027d15fe18a1eb479f0736bc590baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be97876b7c4d93086cfae93857f78cf2') in 0.020557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/SupportPosts-LeftSurface_Color.jpg
-  artifactKey: Guid(78c4ca30f8a140345ae6fdf124559db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/SupportPosts-LeftSurface_Color.jpg using Guid(78c4ca30f8a140345ae6fdf124559db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a738113b03c2c3fd646320ee71f72c') in 0.021594 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 2.prefab
+  artifactKey: Guid(98dadaae72a006d48955753a8c0eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 2.prefab using Guid(98dadaae72a006d48955753a8c0eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aeab0b34c93d9c686c89df5bdc99cc') in 0.012766 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/SupportPosts-LeftNormal.jpg
-  artifactKey: Guid(bfb3980f53d70ce41b68b488cb5c97f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/SupportPosts-LeftNormal.jpg using Guid(bfb3980f53d70ce41b68b488cb5c97f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff31d81d868314369ad45f015e8777c') in 0.021502 seconds 
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 1.prefab
+  artifactKey: Guid(73d2600b17c40b24cb6cc38b9b1dd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 1.prefab using Guid(73d2600b17c40b24cb6cc38b9b1dd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b74ef16d1952b6ee603976450cf49') in 0.016156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/Ramp-LowerSurface_Color.jpg
-  artifactKey: Guid(89e23a88975e25644aa18d44d07802e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampBridge4k/swamp-bridge-4k-ready_2016.fbm/Ramp-LowerSurface_Color.jpg using Guid(89e23a88975e25644aa18d44d07802e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203064a8abbfcc9155dca75d24defb4f') in 0.022295 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000020 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2 b.prefab
+  artifactKey: Guid(0d195c0b730647745af47bd4e3ac8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2 b.prefab using Guid(0d195c0b730647745af47bd4e3ac8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6ac8df97f1d54d6c22f17a429a7d4f') in 0.015549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2.prefab
+  artifactKey: Guid(c5fe18f281c2fa548b3124b44d5882d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2.prefab using Guid(c5fe18f281c2fa548b3124b44d5882d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215c7468b1ba0a1a7e1ab3de3e07b19') in 0.018311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2 b.prefab
+  artifactKey: Guid(b7e95eb81d7e0894580b48733f6126b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2 b.prefab using Guid(b7e95eb81d7e0894580b48733f6126b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef38938972f4db24e7048fc068440262') in 0.014758 seconds 
