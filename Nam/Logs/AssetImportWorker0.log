@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/Nam3D/Nam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54374
+54481
 Successfully changed project path to: C:/Users/SGA/Desktop/Nam3D/Nam
 C:/Users/SGA/Desktop/Nam3D/Nam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/Nam3D/Nam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20296] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 3996007198 [EditorId] 3996007198 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [248] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1700915525 [EditorId] 1700915525 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20296] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 3996007198 [EditorId] 3996007198 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [248] Host "[IP] 192.168.0.225 [Port] 0 [Flags] 2 [Guid] 1700915525 [EditorId] 1700915525 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 56.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,40 +67,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004159 seconds.
+Registered in 0.005011 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 143 ms
-Refreshing native plugins compatible for Editor in 53.95 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 148 ms
+Refreshing native plugins compatible for Editor in 54.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.583 seconds
+- Completed reload, in  0.616 seconds
 Domain Reload Profiling:
-	ReloadAssembly (583ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (460ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (189ms)
+				InitializePlatformSupportModulesInManaged (194ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (61ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -108,38 +108,38 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006356 seconds.
+Registered in 0.006151 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Nam3D\Nam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Nam3D\Nam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 55.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.962 seconds
 Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (317ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -148,12 +148,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (2.2 MB). Loaded Objects now: 3740.
-Memory consumption went from 225.9 MB to 223.7 MB.
-Total: 2.478200 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.082100 ms MarkObjects: 1.839200 ms  DeleteObjects: 0.367600 ms)
+Memory consumption went from 223.5 MB to 221.3 MB.
+Total: 2.620000 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.088900 ms MarkObjects: 1.933100 ms  DeleteObjects: 0.409400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,16 +167,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15801.405410 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/PostProcessing_Profile.asset
-  artifactKey: Guid(5bdd9e6cc32e6a141b8e41d21f52b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/PostProcessing_Profile.asset using Guid(5bdd9e6cc32e6a141b8e41d21f52b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a65f6e974d7d2dd29ed48a7b24c56c') in 0.018209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.893877 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Default_Materials/Materials/AstrofishGamesDiscord.png
-  artifactKey: Guid(ae2631e12ef5d484391568bf3eea13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Default_Materials/Materials/AstrofishGamesDiscord.png using Guid(ae2631e12ef5d484391568bf3eea13fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+  Time since last request: 16146.482239 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_MRAO_1k.tif
+  artifactKey: Guid(f743c73517eae9c4e8f6576b5b2cb04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_MRAO_1k.tif using Guid(f743c73517eae9c4e8f6576b5b2cb04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
 You must inherit from Editor. See the Editor class script documentation.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -188,122 +182,22 @@ UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
- -> (artifact id: '5d02da01d400510cdc3791daa70b1114') in 0.129691 seconds 
+ -> (artifact id: '78e0495239ebbf26e3e2d323a0eae067') in 0.053022 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Default_Materials/Materials/Blockout.mat
-  artifactKey: Guid(a529215a3430f5b41b42df89c87e89c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Default_Materials/Materials/Blockout.mat using Guid(a529215a3430f5b41b42df89c87e89c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea1f3f3d5276e605ac7364990442edb') in 0.062481 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_ALBEDO_1k.tif
+  artifactKey: Guid(e101aac0b0293b64ebf94bf2c761bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_ALBEDO_1k.tif using Guid(e101aac0b0293b64ebf94bf2c761bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac23e29cc4e0df6d1971f674efaa9e08') in 0.010957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.909673 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Effects/Fire_Anim.mat
-  artifactKey: Guid(5a26c2f06b868924890d87092b37d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Effects/Fire_Anim.mat using Guid(5a26c2f06b868924890d87092b37d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3f48f3298b1a9f07d3116c089b8acf') in 1.388031 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_4k.mat
+  artifactKey: Guid(a2c7548fb9a80104690bd72b045f09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_4k.mat using Guid(a2c7548fb9a80104690bd72b045f09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf5572250bb3f20949c22b56236fc8') in 0.132716 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/FullPack/ASTROFISH_DETAILED_MedievalVillage_Full.tif
-  artifactKey: Guid(e4bcd7e2d5523324daec46b2fabf3e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/FullPack/ASTROFISH_DETAILED_MedievalVillage_Full.tif using Guid(e4bcd7e2d5523324daec46b2fabf3e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8f918b5509027e3a43006cf2f73a17') in 1.078149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_GroundCoverStone_4k.mat
-  artifactKey: Guid(71dfa1bc85444024d9794e80f17b84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_GroundCoverStone_4k.mat using Guid(71dfa1bc85444024d9794e80f17b84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165d067bce36189b074d0b23ea29cfd9') in 0.031609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_NRM_1k.tif
-  artifactKey: Guid(d1542fc4eca7f0c4abebadc877eb3ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_NRM_1k.tif using Guid(d1542fc4eca7f0c4abebadc877eb3ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bbe42c11d949d398b82c158ad335c2') in 0.012782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_IronFixtures_All_ALBEDO_4k.tif
-  artifactKey: Guid(18041fd29caaf494ebe26f538250e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_IronFixtures_All_ALBEDO_4k.tif using Guid(18041fd29caaf494ebe26f538250e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6e1b2291dad6d453ec69f4c70df241') in 0.017999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_GroundCoverStone_ALBEDO_4k.tif
-  artifactKey: Guid(dcdfa12db6ff38641b4ee32cf220315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_GroundCoverStone_ALBEDO_4k.tif using Guid(dcdfa12db6ff38641b4ee32cf220315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fe9ba569c24d4200141d638a5d5e97') in 0.015668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_MRAO_4k.tif
-  artifactKey: Guid(3d1c8b3b4bb514b47bc4469326f59866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_MRAO_4k.tif using Guid(3d1c8b3b4bb514b47bc4469326f59866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0dcc7e9edb7c21d5e63486552f6666') in 0.024715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_1k.mat
-  artifactKey: Guid(66bf6eb89bfe0184fa66b9344f4d6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Foliage_Fern_1k.mat using Guid(66bf6eb89bfe0184fa66b9344f4d6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f8f02510da51f9315eadd819b60a6') in 0.275338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_B_NRM_4k.tif
-  artifactKey: Guid(9bbfea24fac710d4eba67ce7d210a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_B_NRM_4k.tif using Guid(9bbfea24fac710d4eba67ce7d210a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd400f34b0c2e8553a631f54bb8fec7b2') in 0.030483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_A_NRM_4k.tif
-  artifactKey: Guid(8a1c79039bb8b8144855ec8f9c7f3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_A_NRM_4k.tif using Guid(8a1c79039bb8b8144855ec8f9c7f3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d09aaec3c5662538f23a09969499738') in 0.029502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlatformsFoundationsPorch_Albedo_8k.tif
-  artifactKey: Guid(c5e225d239df03447ae6cff892b1d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlatformsFoundationsPorch_Albedo_8k.tif using Guid(c5e225d239df03447ae6cff892b1d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c72d8001e878f0d55b8893f4664e80b') in 0.043864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Masonary_Steps_MRAO_4k.tif
-  artifactKey: Guid(1bb878a6a0bacbb41a425a6e1d1c7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Masonary_Steps_MRAO_4k.tif using Guid(1bb878a6a0bacbb41a425a6e1d1c7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f0dd862f9272041ae1444bf9334fca') in 0.019912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_A_ALBEDO_4k.tif
-  artifactKey: Guid(b4155eaacaed6c2419420641b1c9b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_A_ALBEDO_4k.tif using Guid(b4155eaacaed6c2419420641b1c9b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a96043a96b9a38e05d1b5e0bd75458') in 0.018518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_B_ALBEDO_4k.tif
-  artifactKey: Guid(a771c1ceafa6da44bb816df2912ce5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlasterWalls_B_ALBEDO_4k.tif using Guid(a771c1ceafa6da44bb816df2912ce5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf9cdf5c45253e0a2841e79f9e62993') in 0.022905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Chimneys_NRM_8k.tif
-  artifactKey: Guid(a2b2fab36a5f134478c8068f5ba47d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Chimneys_NRM_8k.tif using Guid(a2b2fab36a5f134478c8068f5ba47d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870f62cf980630a87c787aa8a9921b6d') in 0.072565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Roofs_ALBEDO_4k.tif
-  artifactKey: Guid(6b01f5c4de7cde742b18e6543fc910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Roofs_ALBEDO_4k.tif using Guid(6b01f5c4de7cde742b18e6543fc910c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a2a9f985a660ac21b788fca4c9c96') in 0.018794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_ALBEDO_4k.tif
-  artifactKey: Guid(ecdbed39eb9dd9d44b1d68bd7bf1f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Doors_ALBEDO_4k.tif using Guid(ecdbed39eb9dd9d44b1d68bd7bf1f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3fcaf36642339fd85ccd758ce0180b') in 0.017802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlatformsFoundationsPorch_NRM_8k.tif
-  artifactKey: Guid(b8487b8260360354ea6188b7f4dfeac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_PlatformsFoundationsPorch_NRM_8k.tif using Guid(b8487b8260360354ea6188b7f4dfeac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf21bb05f10752b510d5477f7b3c1d5') in 0.073490 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000053 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Chimneys_ALBEDO_8k.tif
+  artifactKey: Guid(ff6914179a81d644ea983c9336a291a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/Mats/Medieval_Chimneys_ALBEDO_8k.tif using Guid(ff6914179a81d644ea983c9336a291a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925be86c0c17d0bbd63723416a131874') in 0.043772 seconds 
