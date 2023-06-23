@@ -2,15 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Specular Mirror
-  m_Shader: {fileID: 4800000, guid: 104cb0e3a7464a3696069ea84b145eee, type: 3}
-  m_ShaderKeywords: EFFECT_ALBEDO2 EFFECT_FOAM EFFECT_MICROWAVE EFFECT_MIRROR EFFECT_NORMALMAP2
-    EFFECT_PARALLAX EFFECT_REFLECTION
+  m_Shader: {fileID: 4800000, guid: 39cf68574afc7f248bd78a99c3800e00, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - EFFECT_ALBEDO2
+  - EFFECT_FOAM
+  - EFFECT_MICROWAVE
+  - EFFECT_MIRROR
+  - EFFECT_NORMALMAP2
+  - EFFECT_PARALLAX
+  - EFFECT_REFLECTION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -120,6 +127,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: b4b23fc51ba94ffab43b9704acdd1bfb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMapTexture:
+        m_Texture: {fileID: 2800000, guid: a78adb8868cccbe4a92d9d81db916e6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -148,6 +159,11 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0c41e829b9bb6ee4cb72abae07230cdb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Albedo2Flow: -0.3
     - _Albedo2Tiling: 0.9
@@ -163,6 +179,7 @@ Material:
     - _Cycle: 3
     - _Depth: 2.2
     - _DepthFactor: 1.43
+    - _DepthStrength: 0.3
     - _DetailIntensity: 1.131
     - _DetailNormalMapScale: 1
     - _DetailScrollSpeed: 0.055
@@ -174,11 +191,14 @@ Material:
     - _FPOW: 10
     - _Factor: 202
     - _FadeLimit: 0.1
+    - _FoamAmount: 1.5
     - _FoamAmplitude: 16
     - _FoamFlow: 11
     - _FoamFrequency: 3
     - _FoamGain: 0.6
     - _FoamLacunarity: 6
+    - _FoamNoiseScale: 150
+    - _FoamPower: 0.5
     - _FoamScale: 0.1
     - _GlossAmount: 0.03
     - _GlossMapScale: 1
@@ -193,6 +213,7 @@ Material:
     - _MainDetailFlow: 0
     - _MainDetailScale: 3
     - _Metallic: 0
+    - _Mettalic: 1
     - _MicrowaveScale: 1
     - _MicrowaveStrength: 0.01
     - _MinuteDetailIntensity: 1.455
@@ -212,6 +233,8 @@ Material:
     - _NormalMap2Flow: 0.5
     - _NormalMap2Strength: 0.9
     - _NormalMap2Tiling: -0.9
+    - _NormalMapWavesSpeed: 0.1
+    - _NormalMapsWavesSize: 5
     - _NormalStrength: 0.85
     - _NormalmapDetailScale: 0.7
     - _NormalmapDetailScaleA: 1
@@ -244,23 +267,29 @@ Material:
     - _SaturationRef: 0.5
     - _Shininess: 0.15
     - _SmoothnessTextureChannel: 0
+    - _Smootness: 1
     - _SoftFactor: 0.09
     - _SpecularHighlights: 1
     - _Speed: 0.5
     - _SpeedX: 0.1
     - _SpeedY: 5
     - _SrcBlend: 1
+    - _TessValue: 5
     - _Transparency: 1
     - _UVSec: 0
     - _WaveAmp: 0.1
+    - _WaveAmplitude: 0.2
     - _WaveIntensity: -0.47
     - _WaveScrollSpeed: 0.1
     - _WaveSpeed: 20
+    - _WaveTile: 0.5
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
     - _AlbedoColor: {r: 0.1254902, g: 0.15461197, b: 0.1882353, a: 1}
     - _BlendColor: {r: 0.29411763, g: 0.29411763, b: 0.29411763, a: 1}
     - _Color: {r: 0.035, g: 0.054999992, b: 0.07, a: 1}
+    - _DeepColor: {r: 0.31149876, g: 0.5266015, b: 0.5283019, a: 0}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0.5}
     - _DiffuseColor: {r: 0.32352936, g: 0.32352936, b: 0.32352936, a: 1}
     - _EdgeColor: {r: 0.5588235, g: 0.5588235, b: 0.5588235, a: 1}
@@ -272,5 +301,7 @@ Material:
     - _MirrorReflectionColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _ShallowColor: {r: 0.52380735, g: 0.7314408, b: 0.745283, a: 0}
     - _SpecColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
     - _SpecularColor: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
+  m_BuildTextureStacks: []
