@@ -42,12 +42,18 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     // ** 얼마 만큼 움직여야할지에 대한 값.
     private Vector3 Movement;
 
+    private float Angle;
 
     void Awake()
     {
         /*
             BackBoard 생성 -> [OutLineCircle.png]
+            size : (x : 256, y : 256)
+            ancher position : (x : 192, y : 192)
+
             BackBoard 하위에 Stick 생성 -> [FilledCircle.png]
+            size : (x : 128, y : 128)
+            ancher position : (x : 0, y : 0)
          */
 
         RectTransform rectTransPos = transform.gameObject.AddComponent<RectTransform>();
@@ -63,6 +69,8 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     {
         // ** BackBoard의 반지름을 구함.
         Radius = BackBoard.rect.width / 2;
+
+        Angle = 0.0f;
     }
 
     void Update()
@@ -79,6 +87,8 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
         // ** Stick.localPosition의 값이 Radius보다 커지지 않도록 하게함.
         Stick.localPosition = Vector2.ClampMagnitude(Stick.localPosition, Radius);
 
+        Debug.Log(Stick.localPosition);
+
         // ** 스틱이 배경의 중심으로 부터 얼마 만큼의 비율로 움직였는지 확인.
         // ** 스틱이 배경에서 움직인 비율.
         // ** Ratio = 스틱이 움직인 비율.
@@ -86,6 +96,8 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
 
         // ** 스틱이 가르키는 방향을 구함.
         Direction = Stick.localPosition.normalized;
+
+        Target.transform.rotation = Quaternion.Euler(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0.0f);
 
         // ** Target를 움직일 방향과 속도를 구함.
         if(HorizontalSpace)
@@ -96,9 +108,6 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
              0f,
              Direction.y * Speed * Time.deltaTime * Ratio);
 
-            // ** 타겟이 Direction과 같은 방향으을 바라보게함.
-            if (Look)
-                Target.eulerAngles = new Vector3(0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0f);
         }
         else
         {
@@ -108,6 +117,7 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
             Direction.y * Speed * Time.deltaTime * Ratio,
             0f);
         }
+        
     }
 
 
