@@ -319,7 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 182565914}
   m_Layer: 0
-  m_Name: Billage
+  m_Name: Village
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
