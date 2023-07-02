@@ -365,6 +365,7 @@
 "Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_VILLAGE/MEDIEVAL_VILLLAGE_HD_DEMO/AstroCommon/Scripts/SimpleCameraController.cs"
 "Assets/BasicBandit/DemoSceneBasicBandit/Scripts/ButtonFunction.cs"
 "Assets/BasicBandit/DemoSceneBasicBandit/Scripts/MovementCamera.cs"
+"Assets/CharacterMove.cs"
 "Assets/Free HDR Skyboxes Pack/Example Scenes/Script/RotateCamera.cs"
 "Assets/Joystick/MyJoyStick.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
