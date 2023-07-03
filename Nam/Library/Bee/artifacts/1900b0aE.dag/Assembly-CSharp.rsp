@@ -370,6 +370,7 @@
 "Assets/Joystick/MyJoyStick.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
+"Assets/Renderer/CameraController2.cs"
 "Assets/Renderer/RendererManager.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/EnemyController.cs"
